@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    columns: 3 300px;
+    padding: 30px;
+    column-rule: 3px dashed #ff0000;
+    column-gap: 50px;
+    column-fill: balance;
+}
+
+h1 {
+    background-color: aqua;
+    column-span: all;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 8px;
+    color: #fff;
+}
